@@ -88,6 +88,13 @@ img {
     font-size: 1.4rem
 }
 
+@media (max-width: 350px) {
+
+    .card-plan {
+        flex-direction: column;
+    }
+}
+
 .plan-main {
     display: flex;
     align-items: center;
